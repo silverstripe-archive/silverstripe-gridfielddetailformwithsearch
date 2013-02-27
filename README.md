@@ -1,7 +1,7 @@
 Grid Field Detail Form that has a search sidebar always visible. Note that we just need to modify the item_request,
 not the whole GridFieldDetailForm. Usage:
 
-class MyDataObjectAdmin extends ModelAdmin {
+  class MyDataObjectAdmin extends ModelAdmin {
 
 	static $managed_models = array(
 	    'MyDataObject'
@@ -16,4 +16,4 @@ class MyDataObjectAdmin extends ModelAdmin {
 	    return $form;
 	}
 
-}
+  }
