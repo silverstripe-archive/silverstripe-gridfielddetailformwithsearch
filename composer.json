@@ -1,0 +1,17 @@
+{
+	"name": "silverstripe/gridfielddetailformwithsearch",
+	"description": "GridFieldDetailForm that has a search sidebar always visible",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "gridfield", "search", "sidebar", "detailform", "detail"],
+	"license": "BSD-3-Clause",
+	"authors": [
+	{
+		"name": "Julian Seidenberg",
+		"email": "julian@silverstripe.com"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "*"
+	}
+}
