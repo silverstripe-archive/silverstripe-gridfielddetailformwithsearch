@@ -21,6 +21,12 @@
  */
 class GridFieldDetailFormWithSearch_ItemRequest extends GridFieldDetailForm_ItemRequest {
 
+	private static $allowed_actions = array(
+		'edit',
+		'view',
+		'ItemEditForm'
+	);
+	
 	public function edit($request) {
 		$controller = $this->getToplevelController();
 		$form = $this->ItemEditForm($this->gridField, $request);
